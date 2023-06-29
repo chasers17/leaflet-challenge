@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.legend-title {
+  font-weight: bold;
+  position: flex;
+  bottom: 5px;
+  left: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+}
+
+.legend-label {
+  margin-left: 5px;
+}
+
+.legend-category {
+  margin-left: 10px;
+}
+
